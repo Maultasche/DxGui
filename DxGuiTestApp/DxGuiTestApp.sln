@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DxGuiTestApp", "DxGuiTestApp.vcproj", "{02288A5C-A887-44E5-9841-FA23A27B8820}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DxGuiFramework", "..\DxGuiFramework\DxGuiFramework.vcproj", "{98D880F8-FDDC-4C52-9174-CB989DC63ABC}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+		{02288A5C-A887-44E5-9841-FA23A27B8820}.0 = {98D880F8-FDDC-4C52-9174-CB989DC63ABC}
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{02288A5C-A887-44E5-9841-FA23A27B8820}.Debug.ActiveCfg = Debug|Win32
+		{02288A5C-A887-44E5-9841-FA23A27B8820}.Debug.Build.0 = Debug|Win32
+		{02288A5C-A887-44E5-9841-FA23A27B8820}.Release.ActiveCfg = Release|Win32
+		{02288A5C-A887-44E5-9841-FA23A27B8820}.Release.Build.0 = Release|Win32
+		{98D880F8-FDDC-4C52-9174-CB989DC63ABC}.Debug.ActiveCfg = Debug|Win32
+		{98D880F8-FDDC-4C52-9174-CB989DC63ABC}.Debug.Build.0 = Debug|Win32
+		{98D880F8-FDDC-4C52-9174-CB989DC63ABC}.Release.ActiveCfg = Release|Win32
+		{98D880F8-FDDC-4C52-9174-CB989DC63ABC}.Release.Build.0 = Release|Win32
+		{110FE3E0-9B08-420A-BAF8-06FF3E77EEA1}.Debug.ActiveCfg = Debug|Win32
+		{110FE3E0-9B08-420A-BAF8-06FF3E77EEA1}.Release.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		DPBuild = 5
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
